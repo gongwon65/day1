@@ -32,8 +32,8 @@ Q6.reverse()
 print(Q6)
 
 #7
-#str=['Life','is','too','short']
-#print(' ',join(str))
+str=['Life','is','too','short']
+print(' '.join(str))
 
 #8
 Q8=(1,2,3)
@@ -60,8 +60,8 @@ print(g['B'])
 #11
 h = [1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5]
 set_h = set(h)
-last_h = list(set_h)
-print(last_h)
+list_h = list(set_h)
+print(list_h)
 
 #12
 i = j = [1, 2, 3]
