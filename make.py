@@ -2,7 +2,7 @@
 for i in range(1, 7):
     file_name = f"q{i}.py"
     with open(file_name, 'w', encoding = 'utf8') as f:
-        f.write("#Q1\n")
+        f.write(f"#Q{i}\n")
         #f.write("print('Hello, World!')\n")  # 기본 내용 예시로 추가
     print(f"{file_name} has been created.")
 
