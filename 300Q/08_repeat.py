@@ -137,9 +137,30 @@ for x in range(3):
 
 
 
+my_list = [100, 200, 400, 800]
+for x in range(3):
+    print(my_list[x+1]-my_list[x])
 
 
+my_list = [100, 200, 400, 800, 1000, 1300]
+
+for x in range(len(my_list)-3):
+    print((my_list[x]+my_list[x+1]+my_list[x+2])/3)
 
 
+volatility = []
+low_prices  = [100, 200, 400, 800, 1000]
+high_prices = [150, 300, 430, 880, 1000]
+'''
+for x in range(len(low_prices)):
+    volatility.append(high_prices[x]-low_prices[x])
+print(volatility)
+'''
+리스트 = [0,1,2,3,4]
+volatility = [high_prices[x]-low_prices[x] for x in 리스트]
+print(volatility)
 
 
+apart = [ ["301호", "302호"], ["201호", "202호"], ["101호", "102호"] ]
+for x in apart:
+    print(x)

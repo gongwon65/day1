@@ -50,6 +50,15 @@ def visit(today, *customers):
 #print_kwargs(name='food', num=123) 하면 딕셔너리로 나온다다
 
 
+'''
+함수를 사용할 때 그 함수만이면 상관없는데 
+함수를 통해 얻은 값을 사용해서 뭔가를 하고싶다면 return을 써야한다.
+'''
+
+
+
+
+
 #지역변수
 def secret():
     message = '???'
