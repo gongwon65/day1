@@ -164,3 +164,10 @@ print(volatility)
 apart = [ ["301호", "302호"], ["201호", "202호"], ["101호", "102호"] ]
 for x in apart:
     print(x)
+
+
+
+apart = [ [101, 102], [201, 202], [301, 302] ]
+for float in apart:
+    for number in float:
+        print(number, "호")

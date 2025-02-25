@@ -115,6 +115,16 @@ with open('list.txt', 'a', encoding='utf8') as f: #f가 아니어도됨됨
     f.write('정xx\n')
     f.write('허xx\n')
 
+f = open('list.txt', 'r', encoding='utf8')
+contents = f.read()
+print(contents)
+
+
+#.readline()은 한줄씩 읽는 것
+#.readlines()는 모든 줄을 읽고 각 줄을 요소로 가지는 리스트를 리턴
+
+
+
 
 
 import sys
