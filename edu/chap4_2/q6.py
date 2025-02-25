@@ -24,6 +24,9 @@ operation = sys.argv[3]
     
 basic(num1,num2,operation)
 
+
+#함수를 사용할 땐 return을 사용하고 global에서 print찍는것이 좀 더 유연하고 체계적인 방법이므로 수정하자자
+
 '''
 import sys
 
