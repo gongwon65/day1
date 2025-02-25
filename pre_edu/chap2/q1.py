@@ -32,8 +32,10 @@ Q6.reverse()
 print(Q6)
 
 #7
+#join = list를 문자열로 바꿀 때 자주 사용용
 str=['Life','is','too','short']
 print(' '.join(str))
+
 
 #8
 Q8=(1,2,3)
