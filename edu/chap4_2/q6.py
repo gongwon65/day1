@@ -1,4 +1,5 @@
 #Q6
+
 import sys
 
 def basic(num1,num2,operation):
@@ -43,7 +44,7 @@ def calculate(num1, num2, operator):
 
 # 명령 줄 인수가 정확히 3개인지 확인 (연산자, 두 숫자 포함)
 if len(sys.argv) != 4:
-    print("사용법: python 프로그램명.py <숫자1> <숫자2> <연산자>")
+    print("사용법: python edu\chap4_2\q6.py <숫자1> <숫자2> <연산자>")
 else:
     # 명령 줄 인수에서 숫자와 연산자를 추출
     try:
