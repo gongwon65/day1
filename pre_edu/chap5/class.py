@@ -193,3 +193,6 @@ from chap5 import good, bad     여러개 가능
 good.say()
 bad.bye()
 '''
+
+
+

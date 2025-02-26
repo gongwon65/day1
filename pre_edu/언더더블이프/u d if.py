@@ -28,3 +28,8 @@ name = 10
 def hi():
     name = 20
     print(name)
+    
+'''
+if __name__ == "_main_":
+    print('직접 실행했을때만 출력됨')
+'''
