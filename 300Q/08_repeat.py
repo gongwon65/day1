@@ -73,7 +73,7 @@ for x in 리스트:
     print(y[0])
 
 
-
+'''
 for x in range(100):
     print(x)
 
@@ -106,7 +106,7 @@ for x in range(10):
 
 for x in range(1,10):
     print(f'3x{x} = {x*3}')
-
+'''
 
 total = 1
 for x in range(1,11):
@@ -171,3 +171,44 @@ apart = [ [101, 102], [201, 202], [301, 302] ]
 for float in apart:
     for number in float:
         print(number, "호")
+
+
+
+
+data = [[ 2000,  3050,  2050,  1980],
+        [ 7500,  2050,  2050,  1980],
+        [15450, 15050, 15550, 14900]]
+
+'''
+for typ in data:
+    for cost in typ:
+        print(f'{cost*1.00014:.2f}')
+    print('-'*4)
+
+
+result = []
+for typ in data:
+    for cost in typ:
+        result.append(f'{cost*1.00014:.2f}')
+print(result)
+'''
+
+result = []
+for typ in data:
+    sub = []
+    for cost in typ:
+        sub.append(f'{cost*1.00014:.2f}')
+    result.append(sub)
+
+print(result)
+
+
+ohlc = [["open", "high", "low", "close"],
+        [100, 110, 70, 100],
+        [200, 210, 180, 190],
+        [300, 310, 300, 310]]
+for typ in ohlc[1:]:
+    if typ[3] >= typ[0]:
+        print(typ[3])
+
+

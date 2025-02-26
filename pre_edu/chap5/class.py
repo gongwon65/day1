@@ -46,6 +46,7 @@ print(b2.name, b2.price)
 #b2.set_travel_mode(10)
 
 
+
 #상속
 '''
 기본블박
