@@ -55,13 +55,6 @@ print(max(a)+min(a))
 #8
 print(round(17/3,4))
 
-'''''
-#9 10 11 12
-#13
-import random
-for x in range(6):
-  random.randint(1,46)
-'''
 
 '''''
 import sys
@@ -71,6 +64,7 @@ for i in num:
   result += int(i)
 print(result)
   '''
+  
 '''''
 import os
 os.chdir('C:\gongwon')
