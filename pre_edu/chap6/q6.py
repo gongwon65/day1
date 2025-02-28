@@ -80,7 +80,7 @@ def search(dirname):
                     
     except PermissionError: #수행권한이 없는 폴더에 접근할 때때
         #pass
-        print('접근권한 없없음')
+        print('접근권한 없음')
 search(r'C:\Users\302-1\gongwon\pre_edu')
 '''
 r'''

@@ -1,6 +1,7 @@
 
 for i in range(3, 14):
-    file_name = f"q{i}_2.py"
+    file_name = f"q{i}_2
+    .py"
     with open(file_name, 'w', encoding = 'utf8') as f:
         f.write(f"#Q{i}\n")
         #f.write("print('Hello, World!')\n")  # 기본 내용 예시로 추가
